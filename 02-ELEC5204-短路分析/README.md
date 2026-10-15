@@ -1,0 +1,38 @@
+# ELEC5204 · 三相系统建模与短路故障分析
+
+[返回作品集](../README.md)
+
+**课程：Power Systems Analysis and Protection｜双人课程实验**
+
+## 问题与模型
+
+在 MATLAB / Simulink 的 Specialized Power Systems 环境中建立 7 节点三相网络，包含两台电源、两台变压器、输电线路及负荷。统一到 100 MVA 基准，先求潮流，再在 Bus 3 分别施加三相短路与 A 相接地故障。
+
+## 分析过程
+
+1. 将发电机、变压器与线路参数换算到共同标幺基准。
+2. 利用潮流结果确定故障前母线电压。
+3. 构建导纳矩阵并得到故障点戴维南等值。
+4. 三相故障使用正序网络；单相接地故障使用正序、负序与零序网络。
+5. 比较理论电压、电流与仿真响应，检查变压器接线组别和接地方式带来的差异。
+
+## 计算结果
+
+| 指标 | 计算结果 |
+|---|---|
+| Bus 3 故障前电压 | 0.9183 p.u. |
+| 三相故障电流 | 10.9194 p.u.，约 2.7410 kA |
+| A 相接地故障电流 | 10.9799 p.u.，约 2.7562 kA |
+| 正常潮流下 PQ 母线电压 | 0.9167–0.9259 p.u. |
+
+电流换算采用 100 MVA、230 kV 的三相基准。
+
+## 运维相关能力
+
+从电压骤降、相电流变化和接地条件区分故障现象；理解短路电流与设备开断能力之间的关系；检查测量定义、标幺基准、变压器接线组别及计算条件是否一致。
+
+## 项目文件
+
+[下载 Simulink 模型与 MATLAB 计算脚本](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/5204_selected_source.zip)
+
+包含基础网络、三相短路和 A 相接地模型，以及对应的解析计算脚本。运行环境为 MATLAB / Simulink 和 Simscape Electrical Specialized Power Systems。
