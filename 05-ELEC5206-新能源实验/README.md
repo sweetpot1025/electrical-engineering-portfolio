@@ -1,0 +1,47 @@
+# ELEC5206 · 光伏与风机运行特性实验
+
+[返回作品集](../README.md)
+
+**三人小组实验｜个人工作：数据处理、图表制作与报告整理**
+
+## 光伏 MPPT：从原始记录解释工况变化
+
+对光伏组件、Buck 变换器及扰动观察法 MPPT 控制系统进行实验分析，比较正常入射与倾斜 30° 两组测量。每组包含 201 条有效记录，按实际采样时间绘制电压、电流和功率曲线。
+
+| 指标 | 正常入射 | 倾斜 30° |
+|---|---:|---:|
+| 记录数 | 201 | 201 |
+| 平均电压 / V | 9.440 | 6.770 |
+| 平均电流 / A | 0.430 | 0.318 |
+| 平均功率 / W | 4.064 | 2.153 |
+| 最大记录功率 / W | 4.463 | 2.336 |
+
+倾斜 30° 后，平均记录功率下降约 **47.0%**。结合电压、电流和功率曲线，分析入射方向、光场分布及控制扰动对运行点的影响。
+
+![两种入射条件下的光伏电压 电流 功率](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/5206_mppt.png)
+
+以 V×I 交叉核对功率记录，两组数据的最大绝对差分别约为 **0.0127 W** 和 **0.0217 W**。
+
+## 风机：负载扫描与最大功率点
+
+在 5、7、10 m/s 三种设置下，对不同电阻负载共记录 27 个工况，绘制转矩、转速、电压、电流及机械与电功率关系。
+
+| 风速设置 / m/s | 测得最大电功率 / W | 对应转速 / r/min |
+|---|---:|---:|
+| 5 | 22.61 | 458 |
+| 7 | 65.35 | 889 |
+| 10 | 181.00 | 1,022 |
+
+![风机机械与电功率随转速的变化](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/5206_wind.png)
+
+对接线极性造成的负号进行识别，使用幅值分析运行特性；结合机械功率与电功率，分析发电机、整流及线路的转换效率。
+
+## 项目成果
+
+形成光伏与风机特性曲线、实验数据表和分析报告，完成采样记录清理、平均值统计、功率一致性检查与最大功率点识别。
+
+- [光伏正常入射测量数据](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/5206_mppt_normal.csv)
+- [光伏倾斜测量数据](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/5206_mppt_tilted.csv)
+- [风机测量数据](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/5206_wind_measurements.csv)
+
+这些工作体现运行数据整理、测量异常识别、结果可视化和实验条件记录能力。温度、零点偏移及重复性仍是解释测量结果时需要考虑的因素。
