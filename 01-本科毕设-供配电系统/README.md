@@ -1,0 +1,51 @@
+# 本科毕设 · 井下供配电一次系统设计
+
+[返回作品集](../README.md)
+
+**毕业设计题目：平煤十二矿井下一次系统设计。** 围绕工业场景中的连续供电与设备安全，完成负荷计算、供电结构分析、变压器选型、短路计算、电缆与断路器校验，并形成论文和 CAD 图纸。
+
+## 设计任务
+
+将设备负荷和不同电压等级整理成供配电系统，使负荷需求、变压器容量、线路承载能力及开关设备能力相互匹配。重点关注长距离供电、负荷变化、故障电流与接地保护。
+
+```mermaid
+flowchart LR
+ A[负荷统计与分类] --> B[有功 无功与视在功率计算]
+ B --> C[供电结构与变压器配置]
+ C --> D[短路点与等值网络]
+ D --> E[断路器 电缆与稳定性校核]
+ E --> F[接地保护与图纸整理]
+```
+
+## 完成的分析
+
+| 环节 | 方法 | 关注的问题 |
+|---|---|---|
+| 负荷计算 | 按设备容量、需用系数和功率因数分类汇总 | 容量需求与区域分配 |
+| 无功补偿 | 比较补偿前后无功与电压损失，讨论集中及分散配置 | 功率因数和线路负担 |
+| 变压器选型 | 对不同电压区域进行容量与负荷分配分析 | 容量匹配、配置及运行条件 |
+| 短路分析 | 标幺值法、等值网络、三相及两相短路计算 | 不同故障点的故障电流水平 |
+| 开关与电缆 | 载流能力、环境修正、电压损失、动热稳定校核 | 额定参数与实际工况的匹配 |
+| 安全与维护 | 接地保护、防护要求和检测方法梳理 | 故障风险及检修关注点 |
+
+完成 17 个关键短路点的计算，并结合故障电流水平开展断路器、电缆及相关设备的选型与校核。
+
+## 与运维岗位的关联
+
+能够从一次系统、负荷与设备参数理解供电链路；遇到低电压、负荷上升或短路风险时，按负荷、线路、变压器与保护设备逐项核查。设备选型校验也有助于理解额定参数、运行裕度和检修边界。
+
+## 项目成果
+
+- **设计说明书**：涵盖负荷计算、无功补偿、供电结构、变压器选型、短路分析、电缆与开关设备校验。
+- **CAD 图纸**：整理供配电一次系统结构及设备配置。
+- **答辩材料**：总结方案选择、计算方法和关键设备配置依据。
+
+## 一次系统图
+
+![供配电一次系统图](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-primary-system.png)
+
+## 论文与工程文件
+
+- [毕业设计论文 PDF](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-thesis.pdf)
+- [一次系统图 PDF](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-primary-system.pdf)
+- [CAD 工程文件](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-design-source.zip)
