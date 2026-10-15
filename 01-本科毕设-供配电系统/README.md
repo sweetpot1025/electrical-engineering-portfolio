@@ -42,10 +42,10 @@ flowchart LR
 
 ## 电气主接线图
 
-![电气主接线图](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-primary-system.png)
+![电气主接线图](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/21ab611df9948ff41f340c7458213baa886da9cd/undergraduate-primary-system.png)
 
 ## 论文与工程文件
 
-- [毕业设计论文 PDF](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-thesis.pdf)
-- [电气主接线图 PDF](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-primary-system.pdf)
-- [主接线图资料下载](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/main/undergraduate-design-source.zip)
+- [毕业设计论文 PDF](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/21ab611df9948ff41f340c7458213baa886da9cd/undergraduate-thesis.pdf)
+- [电气主接线图 PDF](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/21ab611df9948ff41f340c7458213baa886da9cd/undergraduate-primary-system.pdf)
+- [主接线图资料下载](https://raw.githubusercontent.com/sweetpot1025/electrical-operations-portfolio/21ab611df9948ff41f340c7458213baa886da9cd/undergraduate-design-source.zip)
